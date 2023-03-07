@@ -10,7 +10,8 @@ const Card = ({ data, timeFrame }) => {
             className={`relative 
             ${data.title !== "Exercise" && "-top-[10px]"}
              ml-auto mr-4`}
-          ></img>
+            alt={data.imageSrc}
+          />
         </div>
         <div className="bg-dark-blue gap-4 px-6 py-8 rounded-2xl w-[100.5%] -ml-[.25%] relative hover:bg-desaturated-blue">
           <div className="flex justify-between items-center">

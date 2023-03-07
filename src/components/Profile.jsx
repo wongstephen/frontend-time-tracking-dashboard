@@ -12,12 +12,13 @@ const Profile = ({ timeFrame, setTimeFrame }) => {
         <img
           src="./assets/image-jeremy.png"
           className="border-white border-2 rounded-full w-16"
+          alt="profile avator"
         />
         <div className="lg:my-8">
           <p className="text-pale-blue text-sm font-light">Report for</p>
-          <p className="text-white font-light text-2xl lg:text-4xl">
+          <h1 className="text-white font-light text-2xl lg:text-4xl">
             Jeremy Robson
-          </p>
+          </h1>
         </div>
       </div>
       <div className="flex justify-between p-7 lg:flex-col lg:gap-6">
